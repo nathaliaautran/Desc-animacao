@@ -1,0 +1,43 @@
+body {
+
+    background-color:lavenderblush;
+    text-align: center;
+
+}
+
+
+.texto { 
+    color: rgb(129, 5, 124);
+    padding: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+}
+
+.texto h2{
+    font-size: 20px;
+    padding-top: 10px;
+
+}
+
+.pulse {
+    width: 600px;
+    height: 600px;
+    animation: animacaoFadeInOut 1s  linear infinite;
+
+}
+
+.pulse:hover {
+    animation-play-state:paused;
+}
+    
+@keyframes animacaoFadeInOut {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
